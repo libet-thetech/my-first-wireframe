@@ -1,0 +1,111 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin: 0 auto; /* Center align the content */
+    max-width: 1000px; /* Set a max width to keep content centered */
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  
+  .container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto; /* Center the container */
+  }
+  
+  .color-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    gap: 20px;
+  }
+  
+  .color-panel {
+    width: calc(33.33% - 20px); /* Adjust width to fit 3 items per row */
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .color-panel p {
+    margin: 10px 0; /* Add spacing between paragraphs */
+  }
+
+  .color-label {
+    font-weight: bold;
+  }
+
+  .color-description {
+    font-style: italic;
+  }
+  
+  .sunset-coral {
+    background: hsla(12, 85%, 65%, 1);
+  }
+  
+  .ocean-teal {
+    background: hsla(176, 72%, 45%, 1);
+  }
+  
+  .palm-green {
+    background: hsla(98, 60%, 50%, 1);
+  }
+  
+  .gold {
+    background: hsla(45, 90%, 55%, 1);
+  }
+  
+  .beach-beige {
+    background: hsla(37, 45%, 70%, 1);
+  }
+  
+  .neon-pink {
+    background: hsla(333, 75%, 65%, 1);
+  }
+
+  .font-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    gap: 100px;
+  }
+
+  .font-label {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .great-vibes {
+    font-family: "Great Vibes", sans-serif;
+  }
+
+  .lora {
+    font-family: 'Lora';
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  .text-style {
+    font-family: "Great Vibes", sans-serif;
+  }
+
+  .text-style-p {
+    font-family: 'Lora', sans-serif;
+  }
